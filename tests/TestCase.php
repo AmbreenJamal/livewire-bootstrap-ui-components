@@ -2,9 +2,9 @@
 
 namespace Ambreenjamal\BootstrapUiComponents\Tests;
 
+use Ambreenjamal\BootstrapUiComponents\BootstrapUiComponentsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ambreenjamal\BootstrapUiComponents\BootstrapUiComponentsServiceProvider;
 
 class TestCase extends Orchestra
 {
