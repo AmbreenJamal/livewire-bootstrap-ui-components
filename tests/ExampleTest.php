@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Ambreenjamal\BootstrapUiComponents\Tests;
 
 class ExampleTest extends TestCase
 {

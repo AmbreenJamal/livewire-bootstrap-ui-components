@@ -1,22 +1,22 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "ambreenjamal/livewire-bootstrap-ui-components",
+    "description": "laravel blade components with bootstrap fornt end",
     "keywords": [
-        ":vendor_name",
+        "AmbreenJamal",
         "laravel",
-        "package_slug"
+        "livewire-bootstrap-ui-components"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/ambreenjamal/livewire-bootstrap-ui-components",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ambreen Jamal",
+            "email": "ambreen.jamal@hotmail.co.uk",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.4",
         "spatie/laravel-package-tools": "^1.4.3",
         "illuminate/contracts": "^8.37"
     },
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Ambreenjamal\\BootstrapUiComponents\\": "src",
+            "Ambreenjamal\\BootstrapUiComponents\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Ambreenjamal\\BootstrapUiComponents\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Ambreenjamal\\BootstrapUiComponents\\BootstrapUiComponentsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "BootstrapUiComponents": "Ambreenjamal\\BootstrapUiComponents\\BootstrapUiComponentsFacade"
             }
         }
     },
